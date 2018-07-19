@@ -1,10 +1,10 @@
-# qsim  
+# qusi  
 
 Quantum Circuit Simulator.
 
 ## Description
 
-This simulator runs in your browser.  
+This simulator runs in your browser. It's called qusi(クシー).  
 
 ## Requirement
 
