@@ -12,7 +12,7 @@ Still WIP project. You cat get update via [twitter](https://twitter.com/crane_me
 
 ## Licence
 
-[MIT](https://github.com/tcnksm/tool/blob/master/LICENCE)
+[GPL](https://github.com/75u2u/qsim/blob/master/LICENSE)
 
 ## Author
 
