@@ -4,7 +4,7 @@ Quantum Circuit Simulator.
 
 ## Description
 
-This simulator is used to PIC16f1827.  
+This simulator runs in your browser.  
 
 ## Requirement
 
