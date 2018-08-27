@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Qusi</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="header">
+      <div class="header-logo">Qusi</div>
+      <div class="header-list">
+        <ul>
+          <li>マニュアル</li>
+          <li>シミュレータ</li>
+          <li>Qusiについて</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="main">
+      <div class="copy-container">
+        <h1>量子情報基礎</h1>
+        <h2>1.1.1 量子ビットを理解する</h2>
+        <p>古典情報処理のビットを量子力学的に実装したものが<b>量子ビット</b>(quantum bit: キュービットとも言う)である．</p>
+        <p>ビットは0と1の2つの直行した状態をとる．ベクトルで表現すると</p>
+        <img src="./img/1.PNG">
+        <p>となる．2つのベクトルの内積は <a|b> のように表せる．|0> と |1> の2つのベクトルの内積を計算すると</p>
+        <img src="./img/2.PNG">
+        <p>となり，直行していることが確認できる．N個のビットがある場合，</p>
+        <img src="./img/3.PNG">
+        <p>と表現する．qiは0か1のどちらかをとる．</p>
+        <P>|a> ⊗ |b> は |a> と |b> のテンソル積を意味する．テンソル積とは，以下のような計算である．</P>
+        <img src="./img/4.PNG">
+        <p>行列の場合でも，同様に計算する．</p>
+        <img src="./img/5.PNG">
+        <p></p>
+        <video controls autoplay poster="firstframe.jpg" width="320" height="240">
+          <source src="./img/spin_mov.mp4">
+            <p>動画を再生するにはvideoタグをサポートしたブラウザが必要です。</p>
+        </video>
+      </div>
+      <div class="contents">
+        <h3 class="section-title">課題</h3>
+        <div class="contents-item">
+          <p>問題1　次の中から適切なものを選べ．</p>
+            <p>古典情報処理のビットを量子力学的に実装したものを何と言うか．</p>
+            <input type="radio"  name="q1" value="1" id="1">
+            <label for="1" class="label">ビット</label>
+            <input type="radio"  name="q1" value="2" id="2">
+            <label for="2" class="label">量子ビット</label>
+            <input type="radio"  name="q1" value="3" id="3">
+            <label for="3" class="label">量子ピット</label>
+          </p>
+          <p><input type="submit" value="SUBMIT"></p>
+        </div>
+        </div>
+      </div>
+    </div>
+
+      <div class="contact-form">
+        <h3 class="section-title">お問い合わせ</h3>
+        <p>メールアドレス（必須）</p>
+        <input>
+        
+        <p>お問い合わせ内容（必須）</p>
+        <textarea></textarea>
+        
+        <p>※必須項目は必ずご入力ください</p>
+        <input class="contact-submit" type="submit">
+        
+      </div>
+    </div>
+  
+    <div class="footer">
+      <div class="footer-logo">Progate</div>
+      <div class="footer-list">
+        <ul>
+          <li>会社概要</li>
+          <li>採用</li>
+          <li>お問い合わせ</li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
